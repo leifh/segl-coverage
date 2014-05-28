@@ -20,6 +20,13 @@ class SystemSpec extends Specification {
       val customer = Customer("Smith", Switzerland, 5)
 
       SystemService.isUnder18OneLine(customer) mustEqual true
+
+    }
+
+    "return true for customer under 18 and Swiss" in {
+      val customer = Customer("Smith", Switzerland, 5)
+
+      SystemService.isUnder18AndSwiss(customer) mustEqual true
     }
   }
 
