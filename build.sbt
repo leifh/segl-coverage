@@ -4,7 +4,7 @@ version := "1.0"
 
 scalaVersion := "2.11.1"
 
-ScoverageSbtPlugin.instrumentSettings
+scoverage.ScoverageSbtPlugin.instrumentSettings
 
 ScoverageKeys.highlighting := true
 
