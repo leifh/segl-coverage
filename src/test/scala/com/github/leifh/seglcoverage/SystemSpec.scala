@@ -1,8 +1,8 @@
 package com.github.leifh.seglcoverage
 
-import org.specs2.mutable.Specification
+import org.specs2.mutable.SpecificationWithJUnit
 
-class SystemSpec extends Specification {
+class SystemSpec extends SpecificationWithJUnit {
 
   "System" should {
 
