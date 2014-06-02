@@ -2,7 +2,7 @@ package com.github.leifh.seglcoverage
 
 import scala.util.Random
 
-object SystemService {
+object SystemService extends AnotherService {
 
   def getCustomer(id : Long) = Customer("Smith", Switzerland, Random.nextInt(120))
 
@@ -27,6 +27,5 @@ object SystemService {
     }
   }
 
-  def isUnder18AndSwiss(customer : Customer) : Boolean = if(customer.age < 18) true else if(customer.country == Switzerland) true else false
 }
 

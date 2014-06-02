@@ -1,7 +1,7 @@
 segl coverage
 =============
 
-A project showing the result of different coverage tools with the Scala language.
+A project showing the result of different coverage tools with the Scala language (2.11).
 
 scct (sbt)
 ----------
